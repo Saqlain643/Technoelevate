@@ -1,0 +1,22 @@
+str.concat()
+	->A concat() method is method to combine two strings.
+	->In concat() method, takes only one argument of string and concatenate it with another string.
+	->concat() method takes arguments of string type only.
+	->concat() takes concatenates two strings and return new string object only string length is greater than 0, otherwise it returns same object.
+	->In concat() method raises NullPointer Exception when string is concatenated with null .
+	->concat() method is better than + operator because it creates a new object only when the string length is greater than zero(0), so it uses less amount of memory.
+	
+
++ operator
+	->+ operator used to concatenate any number of strings.
+	->In + operatortakes any number of arguments and combines all strings.
+	->+ operator takes any type of argument and converts it to string type and then combine them.
+	->+ operatorcreates a new string object every time irrespective of length of string.
+	->+ operator concatenates string with without any error.
+	->+ operator always a creates a new string irrespective of length of string therefore it takes more memory.
+
+native
+	The native keyword is used to declare a method as native. It means that method implementation is present in the different language.
+	A native method in Java is a method whose implementation is written in other languages such as c and c++.s
+	The ‘native’ keyword is used as a method to indicate that it is implemented in another language.
+

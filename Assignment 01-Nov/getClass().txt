@@ -1,0 +1,18 @@
+Java Object getClass() Method
+
+getClass() is the method of Object class. 
+This method returns the runtime class of this object.
+The class object which is returned is the object that is locked by static synchronized method of the represented class.
+
+Syntax
+public final Class<?> getClass()  
+
+Example
+public class JavaObjectgetClassExample1 {  
+    public static void main(String[] args)   
+    {   
+        Object obj = new String("JavaTpoint");   
+        Class a = obj.getClass();   
+        System.out.println("Class of Object obj is : " + a.getName());   
+    }   
+}  
