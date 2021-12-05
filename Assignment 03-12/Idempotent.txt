@@ -1,0 +1,6 @@
+An HTTP GET is just for getting things, and it’s not supposed to change anything on the server.
+So a GET is, by definition (and according to the HTTP spec) idempotent.
+It can be executed more than once without any bad side effects.
+
+POST is not idempotent—the data submitted in the body of a POST might be destined for a transaction that can’t be reversed.
+So you have to be careful with your doPost() functionality!
